@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "dist/esm",
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": [
+      "vitest"
+    ]
+  },
+  "files": [],
+  "include": [
+    "./src"
+  ],
+  "references": [
+    {
+      "path": "../utils"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

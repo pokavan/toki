@@ -1,0 +1,22 @@
+{
+  "name": "bookmarks",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "vite dev",
+    "preview": "vite preview ../../dist/packages/bookmarks",
+    "build": "vite build",
+    "test": "vitest --run --passWithNoTests",
+    "format": "prettier --write 'src/**/*.{js,ts,tsx,json}'",
+    "format-check": "prettier --check 'src/**/*.{js,ts,tsx,json}'",
+    "check-types": "tsc -b --verbose",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "ui-lib": "workspace:*",
+    "store": "workspace:*",
+    "types": "workspace:*"
+  }
+}

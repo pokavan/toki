@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "outDir": "dist/esm",
+    "types": [
+      "vitest"
+    ]
+  },
+  "files": [],
+  "include": [
+    "./src"
+  ],
+  "references": [
+    {
+      "path": "../utils"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

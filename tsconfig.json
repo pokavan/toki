@@ -1,0 +1,23 @@
+{
+    "files": [],
+    "references": [
+        {
+            "path": "apps/bookmarks"
+        },
+        {
+            "path": "apps/bookmarks-e2e"
+        },
+        {
+            "path": "packages/utils"
+        },
+        {
+            "path": "packages/store"
+        },
+        {
+            "path": "packages/ui-lib"
+        },
+        {
+            "path": "packages/types"
+        }
+    ],
+}

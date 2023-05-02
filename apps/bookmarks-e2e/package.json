@@ -1,0 +1,13 @@
+{
+    "name": "bookmarks-e2e",
+    "version": "0.0.1",
+    "main": "src/index.ts",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "format": "prettier --write 'src/**/*.{js,ts,tsx,json}'",
+        "format-check": "prettier --check 'src/**/*.{js,ts,tsx,json}'",
+        "check-types": "tsc -b",
+        "lint": "eslint"
+    }
+}

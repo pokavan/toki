@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "outDir": "../../dist/out-tsc",
+    "types": [
+      "vite/client",
+      "vitest"
+    ]
+  },
+  "files": [],
+  "include": [
+    "./src"
+  ],
+  "references": [
+    {
+      "path": "../../packages/store"
+    },
+    {
+      "path": "../../packages/ui-lib"
+    },
+    {
+      "path": "../../packages/types"
+    }
+  ],
+  "extends": "../../tsconfig.base.json"
+}

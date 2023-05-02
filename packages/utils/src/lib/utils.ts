@@ -1,0 +1,111 @@
+export const getDefaultBookmarks = () => [
+  {
+    url: 'https://wayflyer.okta.com',
+    label: 'Okta Portal',
+    imgSrc: '/logos/okta.png',
+    tags: ['portals'],
+  },
+  {
+    url: 'https://main--623c294d904f0d003ab4c866.chromatic.com/',
+    label: 'Storybook FlyUI',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
+    url: 'https://main--635a5a0b33dc3e29c1340854.chromatic.com',
+    label: 'Storybook Shared-UI',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
+    url: 'https://main--6267f4f4bc0a9f004a19eb85.chromatic.com',
+    label: 'Storybook - Wayflyer',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
+    url: 'https://main--6389ca48cec250560f8b9ac7.chromatic.com/',
+    label: 'Storybook Flyui-Dataviz',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+
+  {
+    url: 'https://internal.wayflyerdev.com/staff/wayflyercompanies',
+    label: 'Wayflyer Staff App - Dev',
+    imgSrc: '/logos/wayflyer-dev.png',
+    tags: ['dev-tools'],
+  },
+  {
+    url: 'https://internal.wayflyer.team/staff/wayflyercompanies',
+    label: 'Wayflyer Staff App - Production',
+    imgSrc: '/logos/wayflyer.png',
+    tags: ['dev-tools', 'ops-tools'],
+  },
+  {
+    url: 'https://app.datadoghq.eu/dashboard/27q-5sc-kcn?from_ts=1663178068714&to_ts=1663181668714&live=true',
+    label: 'Datadog Health Dashboard',
+    imgSrc: '/logos/datadog.jpeg',
+    tags: ['monitoring'],
+  },
+  {
+    url: 'https://www.figma.com/files/recent',
+    label: 'Figma',
+    imgSrc: '/logos/figma.png',
+    tags: ['design', 'frontend'],
+  },
+  {
+    url: 'https://dtinth.github.io/obtain-github-app-installation-access-token/',
+    label: 'GH App token generator',
+    imgSrc: '/logos/github.png',
+    tags: ['dev-tools'],
+  },
+  {
+    url: 'https://app.graphite.dev/',
+    label: 'Graphite',
+    imgSrc: '/logos/graphite.png',
+    tags: ['dev-tools'],
+  },
+  {
+    url: 'https://app.hibob.com/home',
+    label: 'HiBob',
+    imgSrc: '/logos/hibob.png',
+    tags: ['ops-tools'],
+  },
+  {
+    url: 'https://app.hubspot.com/reports-dashboard/6440909/view/8223233',
+    label: 'HubSpot',
+    imgSrc: '/logos/hubspot.png',
+    tags: ['ops-tools'],
+  },
+  {
+    url: 'https://wayflyer.atlassian.net/jira/your-work',
+    label: 'Jira',
+    imgSrc: '/logos/jira.jpeg',
+    tags: ['ops-tools'],
+  },
+  {
+    url: 'https://miro.com/app/dashboard',
+    label: 'Miro',
+    imgSrc: '/logos/miro.png',
+    tags: ['design', 'ops-tools'],
+  },
+  {
+    url: 'https://www.notion.so/wayflyer/Home-201bd7c7db404dcd9ce154879e635961',
+    label: 'Notion',
+    imgSrc: '/logos/notion.png',
+    tags: ['docs'],
+  },
+  {
+    url: 'https://wayflyer.sentry.io/',
+    label: 'Sentry',
+    imgSrc: '/logos/sentry.png',
+    tags: ['monitoring'],
+  },
+  {
+    url: 'https://docs.wayflyer.io/frontend/latest/',
+    label: 'Wayflyer Frontend Docs',
+    imgSrc: '/logos/fefo.png',
+    tags: ['docs', 'frontend'],
+  },
+];

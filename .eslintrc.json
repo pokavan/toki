@@ -1,0 +1,71 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "**/*",
+    "**/node_modules/**/*"
+  ],
+  "plugins": [
+    "@nrwl/nx",
+    "import"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx",
+        "*.js",
+        "*.jsx"
+      ],
+      "rules": {
+        "import/no-internal-modules": [
+          "error",
+          {
+            "forbid": [
+              "store/*",
+              "utils/*",
+              "ui-lib/*"
+            ]
+          }
+        ],
+        "@nrwl/nx/enforce-module-boundaries": [
+          "error",
+          {
+            "enforceBuildableLibDependency": true,
+            "allow": [],
+            "depConstraints": [
+              {
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": [
+                  "*"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "extends": [
+        "plugin:@nrwl/nx/typescript"
+      ],
+      "rules": {}
+    },
+    {
+      "files": [
+        "*.js",
+        "*.jsx"
+      ],
+      "extends": [
+        "plugin:@nrwl/nx/javascript"
+      ],
+      "rules": {}
+    }
+  ],
+  "extends": [
+    "plugin:storybook/recommended"
+  ]
+}
