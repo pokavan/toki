@@ -18,8 +18,14 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
-    url: 'https://main--6267f4f4bc0a9f004a19eb85.chromatic.com',
-    label: 'Storybook - Wayflyer',
+    url: 'https://main--645a93bddea79441a785fd0f.chromatic.com/',
+    label: 'Storybook - Customer App',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
+    url: 'https://main--645a93d6717e9c486cc370ae.chromatic.com/',
+    label: 'Storybook - Staff App',
     imgSrc: '/logos/storybook.png',
     tags: ['dev-tools', 'frontend'],
   },
