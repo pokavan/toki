@@ -8,7 +8,7 @@ export class BookmarksDb extends Dexie {
 
   constructor() {
     super('bookmarksDb');
-    this.version(1).stores({
+    this.version(2).stores({
       bookmarks: '++url, label', // Primary key and indexed props
     });
 

@@ -96,6 +96,12 @@ export const getDefaultBookmarks = () => [
     tags: ['ops-tools'],
   },
   {
+    url: 'https://wayflyer.crowdin.com/u/projects/2/l/en',
+    label: 'CrowdIn',
+    imgSrc: '/logos/crowdin.png',
+    tags: ['ops-tools'],
+  },
+  {
     url: 'https://wayflyer.atlassian.net/jira/your-work',
     label: 'Jira',
     imgSrc: '/logos/jira.jpeg',
