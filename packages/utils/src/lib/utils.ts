@@ -35,7 +35,18 @@ export const getDefaultBookmarks = () => [
     imgSrc: '/logos/storybook.png',
     tags: ['dev-tools', 'frontend'],
   },
-
+  {
+    url: 'https://user-testing.wayflyer.com/',
+    label: 'Storybook User Testing',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
+    url: 'https://main--639e00d47c717a573dc14d55.chromatic.com/',
+    label: 'Storybook Auth',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
   {
     url: 'https://internal.wayflyerdev.com/staff/wayflyercompanies',
     label: 'Wayflyer Staff App - Dev',
