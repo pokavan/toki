@@ -6,6 +6,18 @@ export const getDefaultBookmarks = () => [
     tags: ['portals'],
   },
   {
+    url: 'https://wayflyer.atlassian.net/jira/software/c/projects/PF/issues/?jql=project%20%3D%20%22PF%22%20and%20type%20%3D%20Epic%20and%20status%20in%20(Ready%2C%20%22In%20Progress%22)%20and%20%22Parent%20Link%22%20in%20(PF-1912%2C%20PF-1893)%0AORDER%20BY%20priority%20DESC',
+    label: 'Jira',
+    imgSrc: '/logos/jira.jpeg',
+    tags: ['ops-tools'],
+  },
+  {
+    url: 'https://docs.wayflyer.io/frontend/latest/',
+    label: 'Wayflyer Frontend Docs',
+    imgSrc: '/logos/fefo.png',
+    tags: ['docs', 'frontend'],
+  },
+  {
     url: 'https://main--623c294d904f0d003ab4c866.chromatic.com/',
     label: 'Storybook FlyUI',
     imgSrc: '/logos/storybook.png',
@@ -66,16 +78,10 @@ export const getDefaultBookmarks = () => [
     tags: ['monitoring'],
   },
   {
-    url: 'https://www.figma.com/files/recent',
+    url: 'https://www.figma.com/files/1085174594297070258/project/62516860/Design-Kit?fuid=977482556682004509',
     label: 'Figma',
     imgSrc: '/logos/figma.png',
     tags: ['design', 'frontend'],
-  },
-  {
-    url: 'https://dtinth.github.io/obtain-github-app-installation-access-token/',
-    label: 'GH App token generator',
-    imgSrc: '/logos/github.png',
-    tags: ['dev-tools'],
   },
   {
     url: 'https://app.graphite.dev/',
@@ -102,12 +108,6 @@ export const getDefaultBookmarks = () => [
     tags: ['ops-tools'],
   },
   {
-    url: 'https://wayflyer.atlassian.net/jira/software/c/projects/PF/issues/?jql=project%20%3D%20%22PF%22%20and%20type%20%3D%20Epic%20and%20status%20in%20(Ready%2C%20%22In%20Progress%22)%20and%20%22Parent%20Link%22%20in%20(PF-1912%2C%20PF-1893)%0AORDER%20BY%20priority%20DESC',
-    label: 'Jira',
-    imgSrc: '/logos/jira.jpeg',
-    tags: ['ops-tools'],
-  },
-  {
     url: 'https://miro.com/app/dashboard',
     label: 'Miro',
     imgSrc: '/logos/miro.png',
@@ -118,17 +118,5 @@ export const getDefaultBookmarks = () => [
     label: 'Notion',
     imgSrc: '/logos/notion.png',
     tags: ['docs'],
-  },
-  {
-    url: 'https://wayflyer.sentry.io/',
-    label: 'Sentry',
-    imgSrc: '/logos/sentry.png',
-    tags: ['monitoring'],
-  },
-  {
-    url: 'https://docs.wayflyer.io/frontend/latest/',
-    label: 'Wayflyer Frontend Docs',
-    imgSrc: '/logos/fefo.png',
-    tags: ['docs', 'frontend'],
   },
 ];
