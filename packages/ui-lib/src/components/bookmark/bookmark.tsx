@@ -103,7 +103,7 @@ export const Bookmark = ({
           >
             <GripVertical />
           </UnstyledButton>
-          {isEditing ? null : (
+          {/* {isEditing ? null : (
             <BookmarkMenu
               url={url}
               onBookmarkRemoved={onBookmarkRemoved}
@@ -113,7 +113,7 @@ export const Bookmark = ({
                 <DotsVertical />
               </UnstyledButton>
             </BookmarkMenu>
-          )}
+          )} */}
         </Flex>
       </Overlay>
       {isEditing ? (

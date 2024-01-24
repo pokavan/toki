@@ -102,7 +102,7 @@ export const getDefaultBookmarks = () => [
     tags: ['ops-tools'],
   },
   {
-    url: 'https://wayflyer.atlassian.net/jira/your-work',
+    url: 'https://wayflyer.atlassian.net/jira/software/c/projects/PF/issues/?jql=project%20%3D%20%22PF%22%20and%20type%20%3D%20Epic%20and%20status%20in%20(Ready%2C%20%22In%20Progress%22)%20and%20%22Parent%20Link%22%20in%20(PF-1912%2C%20PF-1893)%0AORDER%20BY%20priority%20DESC',
     label: 'Jira',
     imgSrc: '/logos/jira.jpeg',
     tags: ['ops-tools'],

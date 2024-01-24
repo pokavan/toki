@@ -17,6 +17,7 @@
   "dependencies": {
     "ui-lib": "workspace:*",
     "store": "workspace:*",
+    "utils": "workspace:*",
     "types": "workspace:*"
   }
 }

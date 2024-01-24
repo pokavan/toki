@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react';
 import { AppShell, BookmarkGrid } from 'ui-lib';
 import { db, useLiveQuery } from 'store';
+import { getDefaultBookmarks } from 'utils';
 import type { Bookmark } from 'types';
 
 export function App() {
@@ -18,9 +19,7 @@ export function App() {
     await db.bookmarks.delete(url);
   }, []);
 
-  const bookmarks: Bookmark[] | undefined = useLiveQuery(() =>
-    db.bookmarks.toArray()
-  );
+  const bookmarks = getDefaultBookmarks();
 
   const tags = Array.from(
     new Set(
