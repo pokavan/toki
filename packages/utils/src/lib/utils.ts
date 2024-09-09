@@ -18,7 +18,7 @@ export const getDefaultBookmarks = () => [
     tags: ['docs', 'frontend'],
   },
   {
-    url: 'https://main--623c294d904f0d003ab4c866.chromatic.com/',
+    url: 'https://flyui.wayflyer.com/',
     label: 'Storybook FlyUI',
     imgSrc: '/logos/storybook.png',
     tags: ['dev-tools', 'frontend'],
@@ -48,25 +48,25 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
-    url: 'https://user-testing.wayflyer.com/',
-    label: 'Storybook User Testing',
-    imgSrc: '/logos/storybook.png',
-    tags: ['dev-tools', 'frontend'],
-  },
-  {
     url: 'https://main--639e00d47c717a573dc14d55.chromatic.com/',
     label: 'Storybook Auth',
     imgSrc: '/logos/storybook.png',
     tags: ['dev-tools', 'frontend'],
   },
   {
-    url: 'https://internal.wayflyerdev.com/staff/wayflyercompanies',
+    url: 'https://main--66bb6ffeb1a13cd69ad3bb68.chromatic.com',
+    label: 'Storybook Banking',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
+    url: 'https://app.wayflyerdev.com/staff/wayflyercompanies',
     label: 'Wayflyer Staff App - Dev',
     imgSrc: '/logos/wayflyer-dev.png',
     tags: ['dev-tools'],
   },
   {
-    url: 'https://internal.wayflyer.team/staff/wayflyercompanies',
+    url: 'https://app.wayflyer.com/staff/wayflyercompanies',
     label: 'Wayflyer Staff App - Production',
     imgSrc: '/logos/wayflyer.png',
     tags: ['dev-tools', 'ops-tools'],
@@ -118,5 +118,11 @@ export const getDefaultBookmarks = () => [
     label: 'Notion',
     imgSrc: '/logos/notion.png',
     tags: ['docs'],
+  },
+  {
+    url: 'https://eu-west-1.console.aws.amazon.com/codesuite/codeartifact/d/849891892665/wayflyer/r/wayflyer?region=eu-west-1&packages-meta=eyJmIjp7fSwicyI6e30sIm4iOjIwLCJpIjowfQ',
+    label: 'CodeArtifact',
+    imgSrc: '/logos/codeartifact.svg',
+    tags: ['ops-tools'],
   },
 ];
