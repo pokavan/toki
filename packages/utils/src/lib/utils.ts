@@ -24,12 +24,6 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
-    url: 'https://main--635a5a0b33dc3e29c1340854.chromatic.com',
-    label: 'Storybook Shared-UI',
-    imgSrc: '/logos/storybook.png',
-    tags: ['dev-tools', 'frontend'],
-  },
-  {
     url: 'https://main--645a93bddea79441a785fd0f.chromatic.com/',
     label: 'Storybook - Customer App',
     imgSrc: '/logos/storybook.png',
@@ -48,9 +42,9 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
-    url: 'https://main--639e00d47c717a573dc14d55.chromatic.com/',
-    label: 'Storybook Auth',
-    imgSrc: '/logos/storybook.png',
+    url: 'https://redesigned-tribble-z2omk4p.pages.github.io/',
+    label: 'FEFO packages generated docs',
+    imgSrc: '/logos/fefo.png',
     tags: ['dev-tools', 'frontend'],
   },
   {
