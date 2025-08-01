@@ -6,7 +6,7 @@ export const getDefaultBookmarks = () => [
     tags: ['portals'],
   },
   {
-    url: 'https://wayflyer.atlassian.net/jira/software/c/projects/PF/issues/?jql=project%20%3D%20%22PF%22%20and%20type%20%3D%20Epic%20and%20status%20in%20(Ready%2C%20%22In%20Progress%22)%20and%20%22Parent%20Link%22%20in%20(PF-1912%2C%20PF-1893)%0AORDER%20BY%20priority%20DESC',
+    url: 'https://wayflyer.atlassian.net/jira/your-work',
     label: 'Jira',
     imgSrc: '/logos/jira.jpeg',
     tags: ['ops-tools'],
@@ -42,14 +42,8 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
-    url: 'https://redesigned-tribble-z2omk4p.pages.github.io/',
-    label: 'FEFO packages generated docs',
-    imgSrc: '/logos/fefo.png',
-    tags: ['dev-tools', 'frontend'],
-  },
-  {
-    url: 'https://main--66bb6ffeb1a13cd69ad3bb68.chromatic.com',
-    label: 'Storybook Banking',
+    url: 'https://main--68513e7fbb41fbe6798b5254.chromatic.com/',
+    label: 'Storybook Embedded Finance',
     imgSrc: '/logos/storybook.png',
     tags: ['dev-tools', 'frontend'],
   },
@@ -76,12 +70,6 @@ export const getDefaultBookmarks = () => [
     label: 'Figma',
     imgSrc: '/logos/figma.png',
     tags: ['design', 'frontend'],
-  },
-  {
-    url: 'https://app.graphite.dev/',
-    label: 'Graphite',
-    imgSrc: '/logos/graphite.png',
-    tags: ['dev-tools'],
   },
   {
     url: 'https://app.hibob.com/home',
