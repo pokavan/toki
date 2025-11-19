@@ -48,6 +48,12 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
+    url: 'https://main--68ca64d83a0a464d356442cb.chromatic.com',
+    label: 'Storybook Broker Portal',
+    imgSrc: '/logos/storybook.png',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
     url: 'https://app.wayflyerdev.com/staff/wayflyercompanies',
     label: 'Wayflyer Staff App - Dev',
     imgSrc: '/logos/wayflyer-dev.png',
