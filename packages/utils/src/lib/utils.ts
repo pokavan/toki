@@ -54,6 +54,12 @@ export const getDefaultBookmarks = () => [
     tags: ['dev-tools', 'frontend'],
   },
   {
+    url: 'https://component-usage-report.netlify.app/',
+    label: 'Component Usage',
+    imgSrc: '/logos/component-usage.svg',
+    tags: ['dev-tools', 'frontend'],
+  },
+  {
     url: 'https://app.wayflyerdev.com/staff/wayflyercompanies',
     label: 'Wayflyer Staff App - Dev',
     imgSrc: '/logos/wayflyer-dev.png',
