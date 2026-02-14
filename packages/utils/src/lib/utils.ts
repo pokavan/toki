@@ -18,6 +18,12 @@ export const getDefaultBookmarks = () => [
     tags: ['docs', 'frontend'],
   },
   {
+    url: "https://chromatic-usage.netlify.app/",
+    label: "Chromatic usage report",
+    imgSrc: "/logos/chromatic.svg",
+    tags: ["frontend", "ops-tools"]
+  },
+  {
     url: 'https://flyui.wayflyer.com/',
     label: 'Storybook FlyUI',
     imgSrc: '/logos/storybook.png',
